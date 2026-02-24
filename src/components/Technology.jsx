@@ -1,20 +1,19 @@
 import React from "react";
 import search from "../assets/search.png";
 import recco from "../assets/recco.png";
-import routi from "../assets/routi.jpg";
-import w3 from "../assets/w3.png";
+//import routi from "../assets/routi.jpg";
+// import w3 from "../assets/w3.png";
 
 const Technology = () => {
   return (
-    <section id="technology" className="py-24 bg-green-50 text-green-900 px-6">
+    <section id="technology" className="py-24 bg-gray-50 text-green-900 px-6">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-6">
-            Our <span className="bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent">
+          <h2 className="text-3xl md:text-5xl  mb-6">
+            Our 
               Solution
-            </span>
           </h2>
 
           <p className="text-green-800 max-w-3xl mx-auto text-lg leading-relaxed">
@@ -30,13 +29,13 @@ const Technology = () => {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
 
           {/* Card 1 */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-green-400 transition duration-300 hover:scale-105 shadow-md text-center">
+          <div className="bg-white p-8 rounded-2xl  hover:border-green-400 transition duration-300 hover:scale-105 shadow-md ">
   <img
     src={search}
     alt="AI-Powered Scans"
-    className="h-20 w-auto object-contain mx-auto mb-2"
+    className="h-20 w-auto object-contain mb-2"
   />
-  <h3 className="text-xl font-semibold mb-4 text-green-600">
+  <h3 className="text-green-950 text-xl font-semibold mb-4 text-green-600">
     AI-Powered Scans
   </h3>
   <p className="text-green-800">
@@ -45,13 +44,13 @@ const Technology = () => {
 </div>
 
           {/* Card 2 */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-green-400 transition duration-300 hover:scale-105 shadow-md text-center">
+          <div className="bg-white p-8 rounded-2xl  hover:border-green-400 transition duration-300 hover:scale-105 shadow-md">
   <img
     src={recco}
     alt="Smart Recommendations"
-    className="h-20 w-auto object-contain mx-auto mb-2"
+    className="h-20 w-auto object-contain mb-2"
   />
-  <h3 className="text-xl font-semibold mb-4 text-green-600">
+  <h3 className="text-green-950 text-xl font-semibold mb-4 text-green-600">
     Smart Recommendations
   </h3>
   <p className="text-green-800">
@@ -60,13 +59,41 @@ const Technology = () => {
 </div>
 
           {/* Card 3 */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-green-400 transition duration-300 hover:scale-105 shadow-md text-center">
-  <img
-    src={routi}
-    alt="Routine Tracking"
-    className="h-20 w-auto object-contain mx-auto mb-2"
-  />
-  <h3 className="text-xl font-semibold mb-4 text-green-600">
+          <div className="bg-white p-8 rounded-2xl hover:border-green-400 transition duration-300 hover:scale-105 shadow-md ">
+  <div className="mb-4 flex">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    className="w-18 h-18"
+  >
+    {/* Green circle background */}
+    <circle cx="32" cy="32" r="28" fill="#2f7d57" />
+
+    {/* Phone body */}
+    <rect
+      x="24"
+      y="16"
+      width="16"
+      height="32"
+      rx="3"
+      fill="white"
+    />
+
+    {/* Screen */}
+    <rect
+      x="27"
+      y="20"
+      width="10"
+      height="20"
+      rx="2"
+      fill="#2f7d57"
+    />
+
+    {/* Home button */}
+    <circle cx="32" cy="44" r="2" fill="#2f7d57" />
+  </svg>
+</div>
+  <h3 className="text-green-950 text-xl font-semibold mb-4 text-green-600">
     Routine Tracking
   </h3>
   <p className="text-green-800">
@@ -75,13 +102,35 @@ const Technology = () => {
 </div>
 
           {/* Card 4 */}
-          <div className="bg-white p-8 rounded-2xl border border-gray-200 hover:border-green-400 transition duration-300 hover:scale-105 shadow-md text-center">
-  <img
-    src={w3}
-    alt="Web3 Transparency"
-    className="h-20 w-auto object-contain mx-auto mb-2"
-  />
-  <h3 className="text-xl font-semibold mb-4 text-green-600">
+          <div className="bg-white p-8 rounded-2xl  hover:border-green-400 transition duration-300 hover:scale-105 shadow-md ">
+  <div className="mb-4 flex">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    className="w-18 h-18"
+    fill="none"
+  >
+    {/* Green circle background */}
+    <circle cx="32" cy="32" r="28" fill="#14532d" />
+
+    {/* Chain link */}
+    <path
+      d="M26 22c-3-3-8-3-11 0s-3 8 0 11l5 5c3 3 8 3 11 0"
+      stroke="white"
+      strokeWidth="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M38 42c3 3 8 3 11 0s3-8 0-11l-5-5c-3-3-8-3-11 0"
+      stroke="white"
+      strokeWidth="4"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+</div>
+  <h3 className="text-green-950 text-xl font-semibold mb-4 text-green-600">
     Web3 Transparency
   </h3>
   <p className="text-green-800">

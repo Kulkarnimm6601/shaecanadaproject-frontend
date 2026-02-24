@@ -14,12 +14,12 @@ const ShaeCoin = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="text-center mb-16">
-      <h2 className="text-3xl md:text-5xl  mb-6 text-green-700">
+      <h2 className="text-3xl md:text-5xl  mb-6 text-green-950">
         Shae Coin: The Currency of Beauty 3.0
       </h2>
     </div>
 
-          <p className="text-green-600 max-w-3xl mx-auto text-lg leading-relaxed">
+          <p className="text-green-800 max-w-3xl mx-auto text-lg leading-relaxed">
             Shae Coin powers every interaction in our ecosystem. Users earn coins
             through scans, reviews, and engagement. Coins can be used to shop in
             the marketplace, traded on exchanges, or staked for rewards. Brands
@@ -41,10 +41,10 @@ const ShaeCoin = () => {
               </div>
               <div>
                 
-                <h3 className="text-xl font-semibold text-green-800">
+                <h3 className="text-green-950 text-xl font-semibold text-green-800">
                   Earn : <span className="italic">Rewards Engine</span>
                 </h3>
-                <p className="text-green-600 mt-2">
+                <p className="text-green-800 mt-2">
                   Earn Shae Coins for purchases, reviews, referrals, and engagement.
                 </p>
               </div>
@@ -59,10 +59,10 @@ const ShaeCoin = () => {
                   />
               </div>
               <div>
-                <h3 className="text-xl font-semibold text-green-800">
+                <h3 className="text-green-950 text-xl font-semibold text-green-800">
                   Spend : <span className="italic">Universal Payments</span>
                 </h3>
-                <p className="text-green-600 text-green-800 mt-2">
+                <p className="text-green-800  mt-2">
                   Brands are settled in Shae Coins, regardless of customer payment method.
                 </p>
               </div>
@@ -77,10 +77,10 @@ const ShaeCoin = () => {
                   />
               </div>
               <div>
-                <h3 className="text-xl text-green-800 font-semibold">
+                <h3 className="text-xl text-green-950 font-semibold">
                   Trade : <span className="italic">Tradeable Asset</span>
                 </h3>
-                <p className="text-green-600 mt-2">
+                <p className="text-green-800 mt-2">
                   Stake, trade, and hold Shae Coins on supported exchanges.
                 </p>
               </div>
@@ -95,10 +95,10 @@ const ShaeCoin = () => {
                   />
               </div>
               <div>
-                <h3 className="text-xl text-green-800 font-semibold italic">
+                <h3 className="text-xl text-green-950 font-semibold italic">
                   Virtual Store Utility
                 </h3>
-                <p className="text-green-600 mt-2">
+                <p className="text-green-800 mt-2">
                   Shae Coins unlock exclusive access in our Web3 skincare marketplace.
                 </p>
               </div>
@@ -116,7 +116,7 @@ const ShaeCoin = () => {
     animation: "float 4s ease-in-out infinite",
   }}
 />
-              <p className="text-gray-700 text-center">
+              <p className="text-gray-800 text-center">
                 The native currency of the beauty blockchain ecosystem
               </p>
               <button className="mt-6 bg-green-700 text-white px-6 py-3 rounded-full hover:bg-green-800 transition">

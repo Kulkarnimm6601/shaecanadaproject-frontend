@@ -8,7 +8,7 @@ const Investors = () => {
   return (
     <section
       id="investors"
-      className="py-24 bg-green-50 text-green-900 px-6"
+      className="py-24 bg-gray-50 text-green-900 px-6"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -67,7 +67,7 @@ const Investors = () => {
         <div className="mt-24 text-center flex flex-wrap justify-center gap-6">
           <Link 
             to="/request-investor-desk" 
-            className="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:scale-105 transition duration-300"
+            className="bg-green-800 text-white px-6 py-3 rounded-lg font-semibold hover:scale-105 transition duration-300"
           >
             Request Investor Deck
           </Link>

@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-green-800 text-white border-t border-green-800 px-6 pt-20 pb-10">
+    <footer className="bg-green-950 text-white border-t border-green-800 px-6 pt-20 pb-10">
 
       
       <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12">
@@ -12,7 +12,7 @@ const Footer = () => {
         {/* Brand Section */}
         <div className="space-y-4">
           <img src={logo} alt="Shae Logo" className="h-20 w-auto object-contain" />
-          <p className="text-white leading-relaxed">
+          <p className="text-gray-300 leading-relaxed">
             The future of beauty is here. <br />
             AI-powered personalization meets blockchain innovation.
           </p>
@@ -23,7 +23,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-6 text-green-600">
             Quick Links
           </h3>
-          <ul className="space-y-3 text-white">
+          <ul className="space-y-3 text-gray-300">
             <li><a href="#home" className="hover:text-green-600 transition">Home</a></li>
             <li><a href="#technology" className="hover:text-green-600 transition">Technology</a></li>
             <li><a href="#shae-coins" className="hover:text-green-600 transition">Shae Coins</a></li>
@@ -38,7 +38,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold mb-6 text-green-600">
             Address
           </h3>
-          <div className="text-white space-y-4 leading-relaxed">
+          <div className="text-gray-300 space-y-4 leading-relaxed">
             <p>
               170 Fort York Boulevard <br />
               Toronto – M5V 0E6
@@ -49,7 +49,7 @@ const Footer = () => {
               Toronto – M5V 3K9
             </p>
 
-            <p className="text-white font-medium">
+            <p className="text-gray-300 font-medium">
               +1-742-688-7778
             </p>
           </div>
@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Bar */}
-      <div className="border-t border-green-1000 mt-16 pt-6 text-center text-white text-sm">
+      <div className="border-t border-green-1000 mt-16 pt-6 text-center text-gray-300 text-sm">
         © 2025 Shae. All rights reserved.
       </div>
     </footer>
